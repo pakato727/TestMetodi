@@ -125,7 +125,7 @@ public class TestMetodi {
 				somma+=numeri[i];
 			}
 		}
-		System.out.println("la somma dei numeri pari �: "+somma);
+		System.out.println("la somma dei numeri pari: "+somma);
 	}
 	
 	void exArray7() {
@@ -136,7 +136,7 @@ public class TestMetodi {
 				numDispari++;
 			}
 		}
-		System.out.println("la somma dei numeri pari �: "+numDispari);
+		System.out.println("la somma dei numeri pari: "+numDispari);
 	}
 	
 	void exArray8() {
@@ -149,6 +149,9 @@ public class TestMetodi {
 				max=numeri[i];
 			}
 		}
-		System.out.println("il numero massimo �: "+max);
+		for(int j=0; j<numeri.length; j++) {
+			System.out.println(numeri[j]);
+		}
+		System.out.println("il numero massimo: "+max);
 	}
 }
